@@ -16,8 +16,11 @@ list_of_files = [
     f"src/{package_name}/pipeline/__init__.py",
     f"src/{package_name}/entity/__init__.py",
     f"src/{package_name}/constants/__init__.py",
+    "tests/__init__.py",
+    "tests/unit/__init__.py",        #checking small func
+    "tests/integration/__init__.py", # checking various samll func togather 
     "configs/config.yaml",
-    "dvc.yaml", #data version control pipeline
+    "dvc.yaml",                      #data version control pipeline
     "params.yaml",
     "init_setup.sh",
     "requirements.txt",
